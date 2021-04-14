@@ -247,7 +247,7 @@ footer {
         height: 1000px;
         align-items: center;
         margin-bottom: 30px;
-        margin-left: 630px;
+        margin-left: 580px;
         position: relative;
         font-size: 50px
     }
@@ -265,7 +265,7 @@ footer {
         height: 1000px;
         margin: center;
         margin-top: 5px;
-        margin-left: 630px;
+        margin-left: 580px;
         position: relative;
         font-size: 50px;
     }
@@ -282,7 +282,7 @@ footer {
         height: 1000px;
         margin: center;
         margin-top: 30px;
-        margin-left: 630px;
+        margin-left: 580px;
         position: relative;
         text-decoration: none;
         font-size: 50px;
@@ -296,12 +296,12 @@ footer {
 }
 @media all and (max-width: 780px){
     .sinopsis{
-        width:800px;
+        width:900px;
         margin-left: 480px;
         position: relative;
         text-decoration: none;
         margin-top: 100px;
-        font-size: 50px;
+        font-size: 70px;
     }
 }
 @media all and (max-width: 780px){
@@ -345,5 +345,10 @@ footer {
         width: 70px;
         height: 70px;
         margin-top: 1px;
+    }
+}
+@media all and (max-width: 780px){
+    .a{
+    text-decoration: none;
     }
 }
