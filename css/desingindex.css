@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.logo1{
+    width: 50px;
+    height: 50px;
+    border-radius: 150px;
+}
+
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	padding: 30px 0;
+    background-color: none;
+    border-bottom: gray;
+    border-radius: 5px;
+}
+
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logotipo {
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: normal;
+	color: #00B7EB;
+	font-size: 40px;
+    margin-left: -880px;
+}
+
+header nav a {
+	color: #FFF;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo {
+	color: black;
+}
+.home{
+color: black;
+position: relative;
+}
+
+.home:hover{
+    cursor: pointer;
+    color: #00B7EB;
+    zoom: 105%;
+}
+.nosotros1:hover{
+    cursor: pointer;
+    color: #00B7EB;
+    zoom: 105%;
+}
+.contacto1:hover{
+    cursor: pointer;
+    color: #00B7EB;
+    zoom: 105%;
+}
+.nosotros1{
+color: black;
+position: relative;
+}
+.contacto1{
+    color: black;
+    position: relative;
+}
+hr{
+    color: grey;
+    border-radius: 5px;
+}
+
+.lucifer{
+    width: 160px;
+    height: 180px;
+    position: absolute;
+}
+
+.inicio{
+    margin-left: 150px;
+    margin-top: 70px;
+}
+.serie{
+    margin-left: 170px;
+}
+.titulo{
+    margin-left: 170px;
+    margin-top: 20px;
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+}
+.sinopsis{
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 30px;
+    font-size: 18px;
+    margin-left: 200px;
+}
+
+.personajes{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.actor1{
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border-color: grey;
+    height: 500px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #dddddd;
+}
+
+.dev{
+    width: 180px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.tom1{
+    text-align: center;
+    margin-top: 20px;
+}
+.actor2{
+    width: 300px;
+    margin-left: 600px;
+    margin-top: 40px;
+    border-color: grey;
+    height: 500px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #dddddd;
+}
+.mod{
+    width: 180px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.lauren1{
+    text-align: center;
+    margin-top: 20px;
+}
+.actor3{
+    width: 300px;
+    margin-left: 1080px;
+    margin-top: 40px;
+    border-color: grey;
+    height: 500px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #dddddd;
+    color: black;
+    text-decoration: none;
+}
+
+.github{
+    width: 180px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.amenadiel1{
+    text-align: center;
+    margin-top: 20px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 40px;
+    margin-top: 600px;
+    position: absolute;
+    background-color: #F5F4F6;
+    width: 1480px;
+    height: 50px;
+}
+
+.p2{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.p1{
+    margin-top: 20px;
+}
+
+.actor1:hover{
+    zoom: 102%;
+    cursor: pointer;
+    transition: all 0.40s;
+    background-color: #313131;
+    color: white;
+}
+
+.actor2:hover{
+    zoom: 102%;
+    cursor: pointer;
+    transition: all 0.40s;
+    background-color: #313131;
+    color: white;
+}
+.actor3:hover{
+    zoom: 102%;
+    cursor: pointer;
+    transition: all 0.40s;
+    background-color: #313131;
+    color: white;
+}
+.titulo1{
+    text-align: center;
+    margin-top: 10px;
+}
+.invite{
+    position: absolute;
+    margin-left: -60px;
+    width: 40px;
+    border-radius: 5px;
+    margin-top: -3px;
+}
+@media all and (max-width: 780px){
+    .titulo1{
+    font-size: 50px;
+    }
+}
+@media all and (max-width: 780px){
+    .actor1{
+        width:800px;
+        height: 1000px;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-left: 580px;
+        position: relative;
+        font-size: 50px
+    }
+}
+@media all and (max-width: 780px){
+    .dev{
+        margin-left: 240px;
+        width: 300px;
+    }
+}
+
+@media all and (max-width: 780px){
+    .actor2{
+        width:800px;
+        height: 1000px;
+        margin: center;
+        margin-top: 5px;
+        margin-left: 580px;
+        position: relative;
+        font-size: 50px;
+    }
+}
+@media all and (max-width: 780px){
+    .mod{
+        margin-left: 240px;
+        width: 300px;
+    }
+}
+@media all and (max-width: 780px){
+    .actor3{
+        width:800px;
+        height: 1000px;
+        margin: center;
+        margin-top: 30px;
+        margin-left: 580px;
+        position: relative;
+        text-decoration: none;
+        font-size: 50px;
+    }
+}
+@media all and (max-width: 780px){
+    .github{
+        margin-left: 240px;
+        width: 300px;
+    }
+}
+@media all and (max-width: 780px){
+    .sinopsis{
+        width:900px;
+        margin-left: 480px;
+        position: relative;
+        text-decoration: none;
+        margin-top: 100px;
+        font-size: 70px;
+    }
+}
+@media all and (max-width: 780px){
+    header{
+        width: max-content;
+        height: 110px;
+        margin: center;
+        position: relative;
+    }
+}
+@media all and (max-width: 780px){
+    hr{
+        width: 800px;
+        height: 110px;
+        margin: center;
+        position: relative;
+    }
+}
+@media all and (max-width: 780px){
+    .personajes{
+        margin: center;
+        position: relative;
+        margin-left: 850px;
+        font-size: 60px;
+    }
+}
+@media all and (max-width: 780px){
+    .btn-outline-primary{
+        margin: center;
+        position: relative;
+        margin-left: 900px;
+        width: 300px;
+        height: 70px;
+    }
+}
+@media all and (max-width: 780px){
+    .invite{
+        margin: center;
+        position: absolute;
+        margin-left: 800px;
+        width: 70px;
+        height: 70px;
+        margin-top: 1px;
+    }
+}
+@media all and (max-width: 780px){
+    .a{
+    text-decoration: none;
+    }
+    .serie{
+        margin-left: 620px;
+        font-size: 50px;
+    }
+    .titulo{
+        margin-left: 620px;
+        font-size: 110px;
+    }
+    .lucifer{
+        margin-left: 380px;
+        margin-top: -50px;
+        height: 250px;
+        width: 200px;
+    }
+}
